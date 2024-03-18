@@ -6,6 +6,7 @@
 #include <SPI.h>
 
 #define USE_OTA 1
+#define USE_MQTT 1
 
 #if USE_OTA
 #include <WiFi.h>
@@ -22,6 +23,11 @@ char pass[] = "727988na909602"; // your network password
 IPAddress myIp;
 
 void setup_wifi_ota();
+
+#if USE_MQTT
+#include <PubSubClient.h>
+
+#endif
 
 #endif
 
