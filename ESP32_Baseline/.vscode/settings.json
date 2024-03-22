@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "helpers.h": "c",
+        "arduino.h": "c",
+        "wifi.h": "c",
+        "espmdns.h": "c"
+    }
+}
